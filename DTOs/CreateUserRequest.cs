@@ -1,0 +1,14 @@
+namespace LiquorPOS.Api.DTOs;
+
+public class CreateUserRequest
+{
+    public string Username { get; set; } = string.Empty;
+
+    public string Password { get; set; } = string.Empty;
+
+    public string FullName { get; set; } = string.Empty;
+
+    public int RoleId { get; set; }
+
+    public int? BranchId { get; set; }
+}
